@@ -1,3 +1,31 @@
-body {
-    background-color: blue;
+@use 'hero';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barrio", system-ui;
+    background-color: #fff;
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+}
+
+button {
+    border-color: #FD01BF;
+    background-color: #FD01BF;
+    color: #fff;
+    font-family: "Barriecito", system-ui;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 12px 48px;
+    border-radius: 10px;
+    transition: background-color 200ms ease;
+
+    &:hover {
+        background-color: #1B2E35;
+        border-color: #1B2E35;
+    }
 }

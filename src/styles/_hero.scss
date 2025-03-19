@@ -1,0 +1,51 @@
+.hero {
+    display: flex;
+    align-items: center;
+    margin-left: 36px;
+
+    img {
+        max-width: 620px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        align-items: start;
+        max-width: 860px;
+        width: 100%;
+
+
+        @media (max-width:640px) {
+            max-width: 80%;
+        }
+
+        @media (max-width:1024px) {
+            max-width: 90%;
+        }
+
+    }
+
+    &__title {
+        color: #1B2E35;
+        font-size: 36px;
+        line-height: 48px;
+        align-items: center;
+    }
+
+    &__text {
+        color: #8475D1;
+        font-size: 24px;
+        line-height: 36px;
+        font-family: "Barriecito", system-ui;
+        text-align: left;
+        max-width: 600px;
+    }
+
+    .logo {
+        display: block;
+        max-width: 80px;
+        max-height: 80px;
+        margin: 0 auto;
+    }
+}
