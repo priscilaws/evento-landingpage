@@ -1,0 +1,26 @@
+.menu {
+
+
+    &__list {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-between;
+        padding-inline: 36px;
+        padding-top: 24px;
+
+        &-item {
+            font-size: 24px;
+            cursor: pointer;
+
+            &:hover {
+                color: #FD01BF;
+            }
+        }
+    }
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+}

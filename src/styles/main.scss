@@ -1,4 +1,6 @@
 @use 'hero';
+@use 'menu';
+
 
 * {
     margin: 0;
@@ -8,10 +10,6 @@
     background-color: #fff;
 }
 
-.logo {
-    width: 48px;
-    height: 48px;
-}
 
 button {
     border-color: #FD01BF;
