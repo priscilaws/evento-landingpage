@@ -11,6 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Barriecito&family=Barrio&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nosifer&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -38,20 +39,40 @@
         <img src="./images/halloween-witch.jpeg" alt="">
     </header>
 
-    <section>
-        <div class="container">
-            <div>
-                <h2>Haunted Address</h2>
-                <p>The Haunted Manor
-                    666 Shadow Lane
-                    Ravenwood, Dark Hollow 1313
-
-                    Enter if you dare... but beware—you may never leave!</p>
-            </div>
+    <section class="event" data-aos="fade-right">
+        <img src="./images/girl-pumpkin.jpg" alt="girl carving pumpkin">
+        <div class="container" data-aos="fade-left">
+            <h2 class="event__title">Terror & Treats: The Ultimate Halloween Birthday! </h2>
+            <p class="event__description">Step into a night of chills and thrills as we celebrate a spine-tingling
+                birthday on
+                October 13th! Get
+                ready for a pumpkin carving showdown, a wicked costume contest, and eerie games that will test your
+                courage. Dance with the undead, sip on creepy cocktails, and brace yourself for surprises lurking in the
+                shadows.<br />
+                Dare to join the fun? Come in your spookiest attire and prepare for a hauntingly good time!</p>
         </div>
     </section>
 
+    <section class="countdown">
+        <h1 class="hero__title">Countdown to the Haunted Birthday Bash!</h1>
+        <p class="event__description" id="countdown">Loading...</p>
+    </section>
+
+    <section class="location" data-aos="fade-left">
+        <div class="location__details" data-aos="fade-right">
+            <h2 class="location__title">Haunted Address</h2>
+            <p class="location__description">The Haunted Manor
+                666 Shadow Lane<br />
+                Ravenwood,<br /> Dark Hollow 1313<br />
+                Enter if you dare... but beware—you may never leave!</p>
+            <div class="location__flashlight"></div>
+        </div>
+        <img src="./images/selfie-boy.jpeg" alt="boy taking a selfie">
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
+
 </body>
 
 </html>

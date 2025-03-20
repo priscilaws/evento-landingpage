@@ -1,0 +1,35 @@
+.event {
+    margin-left: 36px;
+    margin-right: 36px;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 16px;
+
+    }
+
+    &__title {
+        color: #1B2E35;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    &__description {
+        font-size: 20px;
+        font-family: "Barriecito", system-ui;
+        text-align: left;
+        max-width: 600px;
+        color: #FD01BF;
+    }
+
+    img {
+        max-width: 560px;
+    }
+
+
+}
