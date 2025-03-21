@@ -5,6 +5,7 @@
 @use 'countdown';
 @use 'contact';
 @use 'trick-page';
+@use 'form';
 
 
 * {
@@ -12,13 +13,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Barrio", system-ui;
-    background-color: #fff;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
+.button,
 button {
     border-color: #FD01BF;
     background-color: #FD01BF;
@@ -29,6 +30,7 @@ button {
     padding: 12px 48px;
     border-radius: 10px;
     transition: background-color 200ms ease;
+    text-decoration: none;
 
     &:hover {
         background-color: #1B2E35;
