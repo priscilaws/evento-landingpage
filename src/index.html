@@ -19,25 +19,33 @@
     <nav class="menu">
         <ul class="menu__list">
             <li class="menu__list-item"><img class="logo" src="./images/logo-ghost.png" alt=""></li>
-            <li class="menu__list-item">HOME</li>
-            <li class="menu__list-item">ADDRESS</li>
-            <li class="menu__list-item">CONTACT</li>
+            <li class="menu__list-item"> <a href="#home">HOME</a></li>
+            <li class="menu__list-item"><a href="#location">ADDRESS</a></li>
+            <li class="menu__list-item"><a href="#contact">CONTACT</a></li>
         </ul>
     </nav>
 
 
-    <header class="hero">
+    <header class="hero" id="home">
 
         <div class="container">
             <h1 class="hero__title">Fright Night Birthday Bash<br />A Haunted Celebration on October 13th</h1>
 
             <p class="hero__text">Join us for a hauntingly delightful evening. Kindly let us know if you'll be
                 attending.<br /> Date 13/10/2025 at 19h</p>
-
-            <button type="button" class="button-trick">TRICK OR YES!</button>
+            <button type="button" class="button">TRICK OR YES!</button>
         </div>
         <img src="./images/halloween-witch.jpeg" alt="">
     </header>
+
+    <section class="countdown">
+        <div class="countdown__container">
+            <img src="./images/skull-clock-2.png" alt="skull clock icon">
+            <h1 class="countdown__title">Countdown to the Haunted Birthday Bash!</h1>
+            <p class="countdown__text" id="countdown">Loading...</p>
+            <img src="./images/skull-clock-2.png" alt="skull clock icon">
+        </div>
+    </section>
 
     <section class="event" data-aos="fade-right">
         <img src="./images/girl-pumpkin.jpg" alt="girl carving pumpkin">
@@ -53,22 +61,34 @@
         </div>
     </section>
 
-    <section class="countdown">
-        <h1 class="hero__title">Countdown to the Haunted Birthday Bash!</h1>
-        <p class="event__description" id="countdown">Loading...</p>
-    </section>
 
-    <section class="location" data-aos="fade-left">
+    <section class="location" data-aos="fade-left" id="location">
         <div class="location__details" data-aos="fade-right">
             <h2 class="location__title">Haunted Address</h2>
-            <p class="location__description">The Haunted Manor
+            <p class="location__description">The Haunted Manor<br />
                 666 Shadow Lane<br />
                 Ravenwood,<br /> Dark Hollow 1313<br />
                 Enter if you dare... but beware—you may never leave!</p>
-            <div class="location__flashlight"></div>
         </div>
         <img src="./images/zombie.jpg" alt="boy taking a selfie">
     </section>
+
+    <section class="contact" data-aos="fade-right" id="contact">
+        <img src="./images/contact-icon.png" alt="boy taking a selfie">
+        <div class="contact__details" data-aos="fade-left">
+            <h2 class="levent__title">Summon the Hosts</h2>
+            <p class="event__description">
+                Ghost Hotline: (666) 1313-BOO<br />
+                Zombie Dispatcher: undead@hauntedbash.com<br />
+                Ouija Board Support: Responses not guaranteed.<br /><br />
+                For urgent matters, try chanting our names three times in front of a mirror… at your own risk.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2025 Halloween Bash. All rights reserved.</p>
+    </footer>
+
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>

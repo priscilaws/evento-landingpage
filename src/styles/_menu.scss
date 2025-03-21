@@ -1,5 +1,9 @@
 .menu {
 
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
 
     &__list {
         display: flex;

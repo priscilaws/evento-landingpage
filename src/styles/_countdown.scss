@@ -1,0 +1,27 @@
+.countdown {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        max-width: 900px;
+        align-items: center;
+        gap: 40px;
+
+        img {
+            max-width: 100px;
+        }
+    }
+
+    &__title {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    &__text {
+        font-size: 24px;
+        color: #FD01BF;
+    }
+}
