@@ -8,6 +8,12 @@
     padding: 20px;
     box-sizing: border-box;
     position: relative;
+
+    img {
+        width: 100%;
+        max-width: 400px;
+        margin-top: 30px;
+    }
 }
 
 .title {
@@ -43,11 +49,4 @@ input {
 input[type="text"]:focus {
     border-color: #333;
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
-}
-
-
-img {
-    width: 100%;
-    max-width: 400px;
-    margin-top: 30px;
 }

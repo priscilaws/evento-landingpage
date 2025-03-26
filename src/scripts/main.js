@@ -32,8 +32,6 @@ const countDown = setInterval(function () {
 
 }, 1000);
 
-
-
 const flashlight = document.documentElement;
 
 flashlight.addEventListener('mousemove', (e) => {
