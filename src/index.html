@@ -17,9 +17,15 @@
 <body>
 
     <nav class="menu">
+        <img src="./images/logo-ghost.png" alt="Logo" class="logo" />
+
+        <button class="menu__toggle" aria-label="Toggle Menu">
+            ☰
+        </button>
+
         <ul class="menu__list">
-            <li class="menu__list-item"><img class="logo" src="./images/logo-ghost.png" alt=""></li>
-            <li class="menu__list-item"> <a href="#home">HOME</a></li>
+            <li class="menu__list-item"><a href="#home">HOME</a></li>
+            <li class="menu__list-item"><a href="#event">INVITE</a></li>
             <li class="menu__list-item"><a href="#location">ADDRESS</a></li>
             <li class="menu__list-item"><a href="#contact">CONTACT</a></li>
         </ul>
@@ -49,7 +55,7 @@
         </div>
     </section>
 
-    <section class="event" data-aos="fade-right">
+    <section class="event" id="event" data-aos="fade-right">
         <img src="./images/girl-pumpkin.jpg" alt="girl carving pumpkin">
         <div class="container" data-aos="fade-left">
             <h2 class="event__title">Terror & Treats: The Ultimate Halloween Birthday! </h2>
@@ -93,7 +99,8 @@
 
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="scripts/main.js"></script>
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/toggle.js"></script>
 
 </body>
 

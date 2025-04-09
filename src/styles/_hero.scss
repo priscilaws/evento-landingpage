@@ -14,16 +14,6 @@
         align-items: start;
         max-width: 860px;
         width: 100%;
-
-
-        @media (max-width:640px) {
-            max-width: 80%;
-        }
-
-        @media (max-width:1024px) {
-            max-width: 90%;
-        }
-
     }
 
     &__title {
@@ -47,5 +37,38 @@
         max-width: 80px;
         max-height: 80px;
         margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        padding: 40px 20px;
+        text-align: center;
+
+        .container {
+            align-items: center;
+            gap: 24px;
+        }
+
+        &__title {
+            font-size: 2rem;
+            line-height: 2.5rem;
+            align-items: center;
+        }
+
+        &__text {
+            font-size: 1rem;
+            line-height: 1.6rem;
+            text-align: center;
+            max-width: 100%;
+        }
+
+        img {
+            max-width: 100%;
+            margin-bottom: 24px;
+        }
     }
 }

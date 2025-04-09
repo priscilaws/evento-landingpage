@@ -25,3 +25,31 @@
         color: #FD01BF;
     }
 }
+
+@media (max-width: 768px) {
+    .countdown {
+        padding-top: 40px;
+        padding-inline: 16px;
+
+        &__container {
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+
+            img {
+                max-width: 80px;
+            }
+        }
+
+        &__title {
+            font-size: 1.5rem;
+            line-height: 2rem;
+            text-align: center;
+        }
+
+        &__text {
+            font-size: 1rem;
+            text-align: center;
+        }
+    }
+}

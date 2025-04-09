@@ -30,6 +30,15 @@
     img {
         max-width: 560px;
     }
+}
 
+@media (max-width: 768px) {
+    .event {
+        flex-direction: column;
+        text-align: center;
 
+        img {
+            max-width: 60%;
+        }
+    }
 }
